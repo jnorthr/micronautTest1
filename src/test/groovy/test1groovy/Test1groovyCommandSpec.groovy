@@ -24,6 +24,6 @@ class Test1groovyCommandSpec extends Specification {
         PicocliRunner.run(Test1groovyCommand, ctx, args)
 
         expect:
-        baos.toString().contains('Hi!')
+        baos.toString().contains('Hi jim !')
     }
 }
